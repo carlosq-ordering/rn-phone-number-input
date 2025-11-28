@@ -12,7 +12,7 @@ index d08566a..d2227c7 100644
          flexDirection: 'row',
 -        alignItems: 'center'
 +        alignItems: 'center',
-+        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 40 : 50
++        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 40 : 0
      }
  });
  export const HeaderModal = (props) => {
